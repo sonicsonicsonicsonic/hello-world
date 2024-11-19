@@ -1,0 +1,121 @@
+body{
+    padding: 40px;
+    background-color: rgb(192, 192, 192);
+
+    
+}
+
+
+.render_trees{
+    position: fixed;
+      display: inline-block;
+      width: 300px;
+      height: auto;
+      box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.5); 
+      border-radius: 20px; 
+    width: 600px;
+    top:200px;
+
+}
+
+.text1{
+position: relative;
+font-family:cursive;
+font-style: italic;
+font-size: 28px;
+text-align: right;
+margin: 150px auto;
+width: 40%;
+color: hsl(0, 0%, 0%);
+filter: blur(1px);
+}
+
+.Section{
+  position: fixed;
+  display: inline-block;
+  width: 300px;
+  height: auto;
+  box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.5); 
+  border-radius: 20px; 
+    width: 800px;
+    top:200px;
+}
+
+.model{
+  position: fixed;
+  display: inline-block;
+  width: 300px;
+  height: auto;
+  box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.5); 
+  border-radius: 20px; 
+    width: 400px;
+    top:200px;
+}
+
+.render_hut{
+  position: fixed;
+  display: inline-block;
+  width: 300px;
+  height: auto;
+  box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.5); 
+  border-radius: 20px; 
+    width: 800px;
+    top:200px;
+}
+  .image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: cursive;
+    font-size: 28px;
+    font-weight: italic;
+    filter: blur(2px);
+    text-align: center;
+    text-shadow: 4px 4px 8px rgb(0, 0, 0);
+    
+
+  }
+  a{
+    color: rgb(0, 0, 0);
+  }
+
+  .footer{
+    position: absolute;
+    bottom: 10%;
+  }
+
+  h1{
+    position: absolute;
+    top: 10%;
+    font-family:cursive;
+    font-style: italic;
+    font-size: 40px;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
+    filter: blur(2px);
+  }
+
+  h2{
+    position: absolute;
+    top: 20%;
+    font-family:cursive;
+    font-style: italic;
+    font-size: 40px;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
+    filter: blur(2px);
+  }
+
+  .trapezoid {
+   
+    border-bottom: 300px solid #ffffff;
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    height: 0;
+    width: 500px;
+    position: relative;
+    left: 300px;
+   top: 300px;
+   position: fixed;
+  filter: blur(10px);
+
+  }

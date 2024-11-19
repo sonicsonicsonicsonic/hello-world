@@ -1,0 +1,41 @@
+body{
+    width: 80%;
+    margin: 0 auto;
+    background-color: #51ff00;
+    padding: 20px;
+}
+
+table {
+    background-color: #0011ff
+    color( #fff);
+    padding: 10px;
+}
+.header {
+    width: 70%;
+    float: none;
+    background-color: #ff00f2;
+    padding: 10px; 
+}
+.main-content {
+    width: 70%;
+    float: right;
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.footer {
+    width: 60%;
+    margin: 0 auto;
+    float: left;
+    background-color: #0000ff;
+    padding: 20px; 
+}
+
+.sidebar{
+    width: 40%;
+    margin: 0 auto;
+    float: left;
+    background-color: #ffffff;
+    padding: 40px; 
+    font-family: monospace;
+}
